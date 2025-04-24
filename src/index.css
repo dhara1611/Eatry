@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+
+.category-slider {
+    align-items: center;
+    position: relative;
+}
+
+
+.slider-container::-webkit-scrollbar {
+    display: none;
+}
+
+.category-item {
+    flex: 0 0 auto;
+    text-align: center;
+    width: 150px;
+}
+
+.slider-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 1rem;
+    padding: 1rem 0;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.slider-column {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.category-item img {
+    width: 150px;
+    object-fit: contain;
+}
+
+.navigation-container {
+    right: 0;
+    position: absolute;
+}
+
+.arrow {
+    background: #fff;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
