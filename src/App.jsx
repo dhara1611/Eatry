@@ -1,13 +1,18 @@
-import Body from "./component/Body";
+import { Outlet } from "react-router-dom";
 import Header from "./component/Header";
+
 
 function App() {
   return (
     <>
       <Header/>
-      <Body />
+      <Outlet/>
     </>
   );
 }
+
+
+
+
 
 export default App;

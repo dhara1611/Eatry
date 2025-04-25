@@ -24,8 +24,8 @@ const Body = () => {
 
     return (
         <div>
-            <h1 className="text-3xl text-center font-bold underline">
-                Resturant List</h1>
+            <h1 className="text-3xl text-center font-bold mt-4">
+            Order our best food options</h1>
             
                <Cusine cusineList ={Listofcusines}/>
         </div>
